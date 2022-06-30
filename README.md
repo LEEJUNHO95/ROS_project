@@ -44,4 +44,17 @@ Reference Site
          
          ## test
          $ realsense-viewer
+6. **If you are going to use SLAM, refer to this GitHub link. I referred to this package**
+
+     Reference Site
+        <<https://github.com/wh200720041/ssl_slam>>
+
+## Project1. line_detect
+
+**library used**
+
+        1. pyzbar
+        2. pyrealsense2
+        3. numpy
+        4. cv2
 
