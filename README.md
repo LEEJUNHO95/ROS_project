@@ -81,7 +81,7 @@ Reference Site
         from geometry_msgs.msg import Twist ## Massage for scout MINI movement
         from nav_msgs.msg import Odometry ## Massage for scout MINI position
         
-**If you have any questions about code, please leave a comment on YouTube or leave a comment on Git
+## If you have any questions about code, please leave a comment on YouTube or leave a comment on Git
         
 
 
