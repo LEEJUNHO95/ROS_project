@@ -53,8 +53,35 @@ Reference Site
 
 **library used**
 
-        1. pyzbar
-        2. pyrealsense2
-        3. numpy
-        4. cv2
+        1. install pyzbar
+        2. install pyrealsense2
+        3. install numpy
+        4. install cv2
+        5. install time
+        6. install datetime
+
+**massage used**
+
+        from geometry_msgs.msg import Twist ## Massage for scout MINI movement
+
+
+## Project2. SLAM_MOVE
+
+**library used**
+
+        1. install pyzbar
+        2. install pyrealsense2
+        3. install numpy
+        4. install cv2
+        5. install realcamera
+        6. install math
+
+**massage used**
+
+        from geometry_msgs.msg import Twist ## Massage for scout MINI movement
+        from nav_msgs.msg import Odometry ## Massage for scout MINI position
+        
+**If you have any questions about code, please leave a comment on YouTube or leave a comment on Git
+        
+
 
