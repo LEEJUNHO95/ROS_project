@@ -177,7 +177,11 @@ Reference Site
 **<<https://www.youtube.com/watch?v=w1bOpxk9GYY&t=1s>>**
 
 
-**If you have any questions about code, please leave a comment on YouTube or leave a comment on Git**
+
+
+
+
+● **If you have any questions about code, please leave a comment on YouTube or leave a comment on Git**
         
 
 
