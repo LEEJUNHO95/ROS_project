@@ -85,12 +85,12 @@ Reference Site
             
             
             # Explanation #
-            1) cvtColor 함수 : 영상을 gray 스케일로 변환
-            2) boxFilter 함수 : 노이즈를 제거하기 위해서 사용
-            3) Threshold 함수 : 영상을 임계값 기준으로 흑/백 분류
-            4) Canny 함수 : 경계선 (선) 검출
-            5) HoughLinesP 함수 : 직선으로 검출된 Line의 양 끝점을 (x1, y1, x2, y2) 형식으로 data 추출
-            6) 검출된 각 Line의 x 값의 평균값을 활용하여 무인이동체가 레일을 따라 움직이도록 구현
+            1) "cvtColor" function : Convert images to gray scale
+            2) "boxFilter" function : Use to remove noise
+            3) "Threshold" function : Black/white classification of images based on threshold
+            4) "Canny" function : Boundary (line) detection
+            5) "HoughLinesP" function : Data extraction of both end points of a line detected as a straight line in the form of (x1, y1, x2, y2)
+            6) Implement scout MINI to move along the rail using the average value of the "x" value of each detected line
 
 
 ● **Video with QR code Recognition**
@@ -99,10 +99,10 @@ Reference Site
 
             
             # Explanation - Use pyzbar library #
-            1) QR코드 생성 ( Start, A, B, C )
-            2) 웹캠1에서 Start QR을 인식하면, 무인이동체 정지
-            3) 웹캠2에서 A or B or C QR을 인식하면, 인식된 QR위치로 이동 후 정지
-            4) 인식된 QR의 위치로 도착 후, 웹캠2의 QR을 제거하면 주행 재개
+            1) Create QR code (Start, A, B, C)
+            2) When webcam1 recognizes Start QR, scout MINI stops
+            3) When A or B or C QR is recognized in webcam 2, it moves to the recognized QR position and stops
+            4) After arriving at the recognized QR position, remove the QR on webcam 2 and resume driving
             
             
 ● **Video with Obstacles recognition and avoidance**
@@ -111,10 +111,10 @@ Reference Site
             
             
             # Explanation - Use pyrealsense2 library #
-            1) 3D 라이다카메라의 depth값을 사용
-            2) depth값에 따라 영상 각 픽셀에 “ ,1,2,3,4,5,6,7,8” 로 표시되도록 알고리즘 설계
-            3) 알고리즘에 의해 표시된 값으로 장애물 유무 판단
-            4) 장애물을 회피하도록 무인이동체의 속도와 각도를 제어
+            1) Use the depth value of the 3D lidar camera
+            2) Algorithm designed to display " ,1,2,3,4,5,6,7,8" in each pixel of the image according to the depth value
+            3) Determine if an obstacle exists with the value indicated by the algorithm presented
+            4) Control the speed and angle of the scout MINI to avoid obstacles
 
 ● **Project1 - Line Detect __Full Version Video__**
 
@@ -167,9 +167,9 @@ Reference Site
  
  
             # Explanation for this video #
-            1) 3D 라이다카메라의 depth은 307200개의 raw_data를 가지고 있었다.
-            2) 이 depth 값을 쓰려면 raw_data를 정렬된 데이터로 바꿔야 한다.
-            3) bytearray 함수를 써서 raw_data를 변환하고 numpy를 사용하여 이것을 빠른 속도로 계산하여 정렬된 리스트로 변환시킨다.
+            1) The depth of the 3D lidar camera had 307200 raw_data.
+            2) To use this depth value, raw_data must be replaced with sorted data.
+            3) Use the bytearray function to convert raw_data and use numpy to calculate it at a high speed and convert it into an ordered list.
 
 
 ● **Project2 - SLAM_MOVE __Full Version Video__**
