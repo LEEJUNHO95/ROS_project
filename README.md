@@ -60,7 +60,7 @@ Reference Site
         5. install time
         6. install datetime
 
-**massage used**
+**message used**
 
         from geometry_msgs.msg import Twist ## Massage for scout MINI movement
 
@@ -131,10 +131,10 @@ Reference Site
         5. install realcamera
         6. install math
 
-**massage used**
+**message used**
 
-        from geometry_msgs.msg import Twist ## Massage for scout MINI movement
-        from nav_msgs.msg import Odometry ## Massage for scout MINI position
+        from geometry_msgs.msg import Twist ## Message for scout MINI movement
+        from nav_msgs.msg import Odometry ## Message for scout MINI position
         
 
 ## Video for Project 2
