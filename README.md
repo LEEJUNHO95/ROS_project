@@ -1,4 +1,12 @@
+# Introduction to project : 
+    Unmanned vehicle using artificial intelligence in ROS
+    
+# Project Purpose :
+    Establishing a logistics system equipped with autonomous driving and object recognition artificial intelligence based on rails using unmanned vehicles.
+
+
 # ROS_project - project1. line_detect part & project2. SLAM_move part
+
 **Driving Video Link <line_detect> <<https://www.youtube.com/watch?v=QiVPxZddGn0>>**
 
 **Driving Video Link <SLAM_MOVE> <<https://www.youtube.com/watch?v=w1bOpxk9GYY&t=1s>>**
